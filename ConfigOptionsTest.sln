@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4DE1613-3A95-403E-9597-CFA38E654259}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D581376-08F3-4FEB-90D7-211EFB554D1A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ConfigOptionsTest", "src\ConfigOptionsTest\ConfigOptionsTest.xproj", "{9B194BD8-2211-4D71-B5D1-99982FAA5876}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NamingTools", "src\NamingTools\NamingTools.xproj", "{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B194BD8-2211-4D71-B5D1-99982FAA5876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B194BD8-2211-4D71-B5D1-99982FAA5876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B194BD8-2211-4D71-B5D1-99982FAA5876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B194BD8-2211-4D71-B5D1-99982FAA5876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B194BD8-2211-4D71-B5D1-99982FAA5876} = {F4DE1613-3A95-403E-9597-CFA38E654259}
+		{804545B2-0D01-43B2-AB22-E9F3D5D5EDD8} = {F4DE1613-3A95-403E-9597-CFA38E654259}
+	EndGlobalSection
+EndGlobal
